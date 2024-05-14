@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+}
+ 
+#img-div {
+    /* background-image: url("https://e0.pxfuel.com/wallpapers/793/205/desktop-wallpaper-galaxy-with-purple-nebula-anime-purple-galaxy.jpg"); */
+    background-image: url("https://previadentalworks.com/wp-content/uploads/2022/08/como-solicitar-tomografia-odontologica-correcta-para-ti-1.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    opacity: .4;
+} 
+
+#img1-div {
+    /* background-image: url("https://e0.pxfuel.com/wallpapers/793/205/desktop-wallpaper-galaxy-with-purple-nebula-anime-purple-galaxy.jpg"); */
+    background-image: url("https://estudidentalbarcelona.com/wp-content/uploads/2017/08/tomografia-dientes.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    opacity: .8;
+} 
